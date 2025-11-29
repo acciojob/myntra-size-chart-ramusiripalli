@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+table{
+	border-collapse:collapse;
+}
+th,td{
+	border:1px solid black;
+	padding:30px;
+}
+
+th{
+	background-color:orangered;
+}
+
+table tr:nth-child(odd){
+	color:green;
+}
